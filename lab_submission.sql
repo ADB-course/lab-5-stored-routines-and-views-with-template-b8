@@ -46,3 +46,4 @@ FROM customers
          JOIN orders ON customers.customerNumber = orders.customerNumber
          JOIN orderdetails ON orders.orderNumber = orderdetails.orderNumber
          JOIN products ON orderdetails.productCode = products.productCode;
+-- done
